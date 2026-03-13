@@ -20,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "135780MC"
     },
     "anti-afk": {
       "enabled": true,
@@ -28,15 +28,16 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": true,
-      "repeat-delay": 120,
+      "repeat": false,
+      "repeat-delay": 10,
       "messages": [
-        
+        "/register 135780MC 135780MC",
+        "/login 135780MC 135780MC"
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
+    "auto-reconnect-delay": 5000,
     "max-reconnect-delay": 120000,
     "periodic-rejoin": {
       "enabled": false,
@@ -48,7 +49,7 @@
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
+      "radius": 2,
       "speed": 3000
     },
     "look-around": {
